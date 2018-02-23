@@ -1,13 +1,13 @@
 # Project 1: Gene Expression Prediction using Genetic Markers
 
-## 1. Background and Introduction
+## Background and Introduction
 
 As explained in the class, the primary goal of this project is to build machine learning algorithms for predicting gene expression levels using genotypes of cis-SNPs. This is an active research area in genetics and genomics, the following papers provide necessary background on this topic.
 
 + [Gamazon et al. A gene-based association method for mapping traits using reference transcriptome data](https://www.nature.com/articles/ng.3367)
 + [Gusev et al. Integrative approaches for large-scale transcriptome-wide association studies](https://www.nature.com/articles/ng.3506)
 
-## 2. Data Download
+## Data Downloading
 
 Download a single zipped tar file ```project_data.tgz``` from [here](https://goo.gl/o6hmWY). Note that the file size is about 571Mb, make sure you have enough disk space to save and operate on the downloaded file.
 
@@ -45,4 +45,20 @@ summary(pval)
 ## Specific Aims
 
 You can choose one of the following two tasks to work on. 
+
+### 1. Predicting gene expression-levels of the testing samples
+
+This is a prediction problem. You may choose and implement any algorithm to predict the gene expression levels of the testing samples. The accuracy of the prediction will be judged by the squared rank correlation (R^2) between the predicted values and the actual values (not accessible to you)
+
+### 2. Identify cis-SNPs that associated with gene-expressions
+
+This is a variable selection problem. You may use any algorithm of your choice to identify potentially multiple association signals. In this case, you may choose not using the testing genotype data. But some measurement/quantification/justification of the type I errors of your identified signals is required.
+
+
+
+
+
+
+
+
 
