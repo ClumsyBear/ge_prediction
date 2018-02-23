@@ -30,7 +30,7 @@ Note that genotype data file contains a header of SNP names.
 
 3. genotype data for testing samples (named as ```ENSG###.testing_geno.dat```): genoype data matrix (Mxp) for a given gene. For all genes, testing data sample size M=100. This genotype data file also contains a header of SNP names.
 
-You use/modify the following R code to test the downloaded training data by performing single SNP association analysis 
+You may use/modify the following R code to test the downloaded training data by performing single SNP association analysis 
 
 ```
 # load in training genotype data
