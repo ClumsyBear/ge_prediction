@@ -25,7 +25,9 @@ The whole data set contains text formated data files for ***68*** genes. There a
    2178    5200    5736    6618    7056   17060
 ```
 Note that genotype data file contains a header of SNP names.
+
 2. phenotype (i.e. expression level) data for training samples (named as ```ENSG###.training_pheno.dat```): gene expression data matrix (Nx1) for a given gene. 
+
 3. genotype data for testing samples (named as ```ENSG###.testing_geno.dat```): genoype data matrix (Mxp) for a given gene. For all genes, testing data sample size M=100. This genotype data file also contains a header of SNP names.
 
 
