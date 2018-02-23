@@ -18,7 +18,7 @@ tar zxf project_data.tgz
 ```
 
 The whole data set contains text formated data files for ***68*** genes. There are *3* separate files for each gene:
-1. genotype data for training samples (named as ``ENSG\#\#\#.training_geno.dat```): genotype data matrix (Nxp) for a given gene. For all genes, N=570. The number of cis-SNPs (i.e., the predictors) varies by genes. The summary of distribution of p across 68 genes is given by 
+1. genotype data for training samples (named as ```ENSG\#\#\#.training_geno.dat```): genotype data matrix (Nxp) for a given gene. For all genes, N=570. The number of cis-SNPs (i.e., the predictors) varies by genes. The summary of distribution of p across 68 genes is given by 
 
 ```
    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
