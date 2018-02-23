@@ -52,7 +52,7 @@ This is a prediction problem. You may choose and implement any algorithm to pred
 
 ### 2. Identify cis-SNPs that associated with gene-expressions
 
-This is a variable selection problem. You may use any algorithm of your choice to identify potentially multiple association signals. In this case, you may choose not using the testing genotype data. But some measurement/quantification/justification of the type I errors of your identified signals is required.
+This is a variable selection problem. You may use any algorithm of your choice to identify potentially multiple association signals. (In this case, the testing genotype data may not be useful to you.) Importantly, some measurement/quantification/justification of the type I errors of your identified signals is required.
 
 
 
